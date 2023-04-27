@@ -96,5 +96,12 @@ ul {
 
 ul li:nth-child(even) {
     padding: 0.5rem;
-    background-color: #e9edc9;
+    background-color: #fff0e0;
+}
+
+footer {
+    background-color: #f8d7b3;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0.5rem;
 }

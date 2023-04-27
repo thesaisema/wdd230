@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 
-#content {
-    margin: 0 auto;
-    max-width: 640px;
-    background-color: #faedcd;
-}
-
 header img {
     width: 100px;
     
@@ -33,7 +27,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: #eeb87f;
+    background-color: #f8d7b3;
     color: black;
     border: 2px black solid;
     border-radius: 0.5rem;

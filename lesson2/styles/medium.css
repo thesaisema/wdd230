@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .main3 {
+        grid-column: 1/3;
+    }
+}

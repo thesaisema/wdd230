@@ -3,5 +3,6 @@
         "Castoro",
         "currentyear",
         "lastupdated"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

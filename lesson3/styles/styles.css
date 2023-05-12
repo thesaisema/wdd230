@@ -20,6 +20,13 @@ main {
   min-width: 480px;
   margin: 0 auto;
 }
+
+main img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 header,
 footer {
   background-color: var(--header-bg-color);
@@ -86,6 +93,32 @@ h1{
     text-align: center;
 }
 
+/* Hamburger menu */
+
+#navbar {
+  display: none;
+}
+
+#navbar.active {
+  display: flex;
+}
+
+#menu-open {
+  display: block;
+}
+
+#menu-open.active {
+  display: none;
+}
+
+#menu-close {
+  display: none;
+}
+
+#menu-close.active {
+  display: block;
+}
+
 table{
   border-collapse: collapse;
 }
@@ -123,6 +156,18 @@ nav ul li.active a{
     font-size: 1rem;
   }
 
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  #navbar {
+    display: flex;
+  }
+
 }  
 
 
@@ -136,5 +181,17 @@ nav ul li.active a{
 
 /* This is for large */
 @media screen and (min-width:1000px) {
-    
+    nav a {
+      padding: .5rem;
+      font-size: 1rem;
+    }
+
+    #menu-toggle {
+      display: none;
+    }
+
+    #navbar {
+      display: flex;
+      flex-direction: row;
+    }
 }

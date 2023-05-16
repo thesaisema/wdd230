@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'EB Garamond', serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:10px;
+}
+:root {
+    --main-color: #E9EDC9;
+    --accent-color: #474c38;
+    --text-color: #060704;
+    --brown-color: #D4A373;
+}
+
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: var(--brown-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo img {
+    width: 100px;
+    height:100px;
+   
+}
+
+#socialmedia {
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, auto);
+    gap: 20px;
+}
+.home div {
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    padding: 20px;
+    
+}
+#spotlight {
+    height: auto;
+}
+#spotlight div {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+}
+.s3 {
+    display: none;
+}
+
+#join {
+    display: none;
+}

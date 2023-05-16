@@ -3,9 +3,9 @@
 
 :root{
   --header-bg-color: #E0EFC4;
-  --menu-bg-color: #2b4721;
+  --menu-bg-color: #a3cb95;
   --menu-highlight-color: #caf5ce;
-  --body-bg-color: #eef0e9;
+  --body-bg-color: #000000;
 }
 
 body {

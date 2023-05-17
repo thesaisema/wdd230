@@ -3,13 +3,13 @@
 
 :root{
   --header-bg-color: #E0EFC4;
-  --menu-bg-color: #a3cb95;
+  --menu-bg-color: #305F30;
   --menu-highlight-color: #caf5ce;
   --body-bg-color: #000000;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   min-height: 100vh;
 }
 
@@ -19,6 +19,7 @@ main {
   max-width: 800px;
   min-width: 480px;
   margin: 0 auto;
+  color: #050505;
 }
 
 main img{
@@ -33,7 +34,7 @@ footer {
   text-align: center;
   border: 1px solid rgb(244, 244, 244);
   padding: 1rem;
-  color: white;
+  color: #050505;
   border-radius: 20px;
 }
 
@@ -89,8 +90,9 @@ nav ul li a:hover{
   color: black;
 }
 
-h1{
+h1,h2{
     text-align: center;
+    color: #050505;
 }
 
 /* Hamburger menu */

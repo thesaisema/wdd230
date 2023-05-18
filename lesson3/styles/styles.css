@@ -95,6 +95,19 @@ h1,h2{
     color: #050505;
 }
 
+h3 {
+  color: #184215;
+  background-color: #184215;
+  color:rgb(244, 244, 244)
+}
+
+#navbar-active {
+  color: #050505;
+}
+
+#siteheader {
+  color: #050505;
+}
 /* Hamburger menu */
 
 #navbar {

@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/windchill.css">
+    <script src="./scripts//windchill-news.js" defer></script>
+    <script src="./scripts/timerange.js" defer></script>
     <title>San Francisco Chamber of Commerce</title>
 </head>
 <body>
     <header>
        <div id="logo"> 
-        <img src="./images/brownsflogo.png" alt="">
+        <img src="./images/San Francisco.png" alt="Logo">
         <div>
             <p>San Francisco</p>
             <p>Chamber of Commerce</p>
@@ -37,20 +40,63 @@
     </nav>
 
 <main class="home">
-    <div id="hero">Hero</div>
-    <div id="event">Event</div>
-    <div id="weather">Weather</div>
+    <div id="hero">Hero
+        <img src="./images/" alt="">
+    </div>
+    <div id="event">    
+        <h2>E V E N T S</h2>
+        <p>July 7, 2023: Commerce BBQ Gathering @ 7 pm</p>
+        <hr>
+        <p>July 20, 2023: Women Empowerment Leadership Program @ 5 pm</p>
+        <hr></div>
+
+         <!-- <img src="./images/womenempowerment.png" alt="Women Empowerment Image"> -->
+    <div id="weather">  
+        <h2>Weather info</h2>
+        <img src="./images/weathericon.png" width="70px"alt="Weather Icon Image">
+        <span><span id="temperature"> </span>° F</span>
+        <h2 id="weatherdesc">Clear</h2>
+        <hr>       
+        <p>Wind Speed: <span id="windspeed">?</span> mph</p>
+        <p>Wind Chill: <span id="windchill">?</span>&deg; F</p>
+    </div>
+
+  
+    
+
+
     <div id="newsrelease">News Release</div>
+
     <div id="spotlight">
         <div>Spotlight 1</div>
         <div>Spotlight 2</div>
         <div class="s3">Spotlight 3</div>
     </div>
-    <div id="join">Join</div>
+    <div id="join">
+        <button>Join us</button>
+        <p>Come join us through the various events that we have all over San Francisco!</p>
+        <img src="./images/coworkersimage.png" width="180px" alt="Co workers image">
+    </div>
 </main>
 
     <footer>
+    <div class="footerinfo">
+        <img src="./images/San Francisco.png" width="170" alt="San Francisco logo for footer">
+        <p>San Francisco Chamber of Commerce</p>
+        <p>1301 Havanna, San Francisco, CA 94061</p>
+    </div>
 
+    <div class="timerange">
+        <p>
+            
+            <span id="currentyear"></span>
+             &copy; | Sainimere Sema | Rexburg, ID
+            </p>
+            <p>
+                Last Updated: 
+                <span id="lastUpdated"></span>
+            </p>
+        </div>
     </footer>
 </body>
 </html>

@@ -4,11 +4,15 @@
         "currentyear",
         "deletebutton",
         "favchap",
+        "Havanna",
         "inputbutton",
         "lastupdated",
         "mylist",
         "newlistitem",
-        "userinput"
+        "newrelease",
+        "socialmedia",
+        "userinput",
+        "windspeed"
     ],
     "liveServer.settings.port": 5501
 }

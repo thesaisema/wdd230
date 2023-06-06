@@ -10,8 +10,10 @@
         "mylist",
         "newlistitem",
         "newrelease",
+        "newsrelease",
         "socialmedia",
         "userinput",
+        "Wildwest",
         "windspeed"
     ],
     "liveServer.settings.port": 5501

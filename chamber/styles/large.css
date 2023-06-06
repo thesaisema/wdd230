@@ -35,7 +35,11 @@
         grid-row: 1/4;
         flex-direction: column;
     }
-    .s3 {
+    .spotlight3 {
         display: block;
+    }
+    .spotlight1 p, .spotlight2 p, .spotlight3 p {
+        /* background-color: #00000000; */
+        font-weight: bold;
     }
 }

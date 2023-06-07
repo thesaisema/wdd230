@@ -114,7 +114,7 @@ footer {
 }
 .spotlight1 p, .spotlight2 p, .spotlight3 p {
     position: absolute;
-    background-color: #c59c71;
+    background-color: hsla(31, 42%, 61%, 0.833);
     color: rgb(255, 255, 255);
     width: calc(100% - 40px);
     height: 50px;

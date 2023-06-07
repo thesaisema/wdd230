@@ -19,6 +19,35 @@
         .dark-grey{
             background-color: rgb(72, 72, 72);
         }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        th{
+            padding: .5rem;
+            border: 1px solid black;
+        }
+
+        td{
+            text-align: center;
+            padding: .5rem;
+            font-weight: bold;
+            border: 1px gray solid;
+        }
+        .tbody tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        .redx{
+            color: red;
+        }
+
+        .check{
+            color: purple;
+        }
     </style>
 </head>
 <body>
@@ -37,15 +66,21 @@
         <tbody>
             <tr>
                 <td>Feature 1</td>
-                <td>&check;</td>
-                <td>&check;</td>
-                <td>&check;</td>
+                <td class="check">&check;</td>
+                <td class="check">&check;</td>
+                <td class="check">&check;</td>
             </tr>
             <tr>
-                <td>Feature 1</td>
-                <td>&#10006;</td>
-                <td>&#10006;</td>
-                <td>&check;</td>
+                <td>Feature 2</td>
+                <td class="redx">&#10006;</td>
+                <td class="check">&#10006;</td>
+                <td class="check">&check;</td>
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+                <td class="redx">&#10006;</td>
+                <td class="redx">&#10006;</td>
+                <td class="check">&check;</td>
             </tr>
         </tbody>
         <caption>

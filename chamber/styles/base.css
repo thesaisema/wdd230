@@ -22,7 +22,7 @@ body {
 #logo {
     display: flex;
     align-items: center;
-    color: var(--brown-color);
+    color: #5D3D1D;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #logo img {
@@ -30,7 +30,22 @@ body {
     height:100px;
    
 }
-
+ul {
+    display: flex;
+    gap: 20px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    color: #5D3D1D;
+    text-decoration: none;
+    padding: 10px;
+}
+ul li a:hover {
+    background-color: #5D3D1D;
+    color: white;
+}
 #socialmedia {
     font-size: 25px;
 }
@@ -43,7 +58,7 @@ header{
 .home {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto, auto);
+    
     gap: 20px;
 }
 .home div {
@@ -133,3 +148,4 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+

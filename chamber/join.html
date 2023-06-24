@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+        main{
+            display: flex;
+            }
+        section{
+            width: 50%;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid black;
+            min-width: 400px;
+        }
+
+        label{
+            display: block;
+            font-size: .90rem;
+        }
+
+        input{
+            display: block;
+            margin-bottom: .5rem;
+            padding: .5rem;
+        }
+
+        textarea{
+            display: block;
+            margin-bottom: .5rem;
+        }
+
+        .myradio{
+            display: inline;
+            margin: 0px 5px 0px 0px;
+        }
+
+        .jointhechamber{
+            font-size: .75rem;
+            background-color: pink;
+            color: rgb(255, 255, 255);
+            padding: .5rem;
+
+        }
+
+        .formstyling ul{
+            list-style-type: square;
+        }
+
+        @media(max-width: 800px){
+            main {
+                display: block;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <form method="GET" action="page2.html">
+            <label>First name<input name="fname" type="text" value="" placeholder="Your first name" size="30" maxlength="30" required></label>
+            <label>Last name<input name="fname" type="text" value="" placeholder="Your last name" size="30" maxlength="30" required></label>
+            <label>Title<input name="fname" type="text" value="" placeholder="Title" size="30" maxlength="30" required></label>
+            <label>E-mail<input name="fname" type="text" value="" placeholder="E-mail" size="30" maxlength="30" required></label>
+            <label>Cell Phone<input name="fname" type="text" value="" placeholder="Cell Phone Number" size="30" maxlength="30" required></label>
+            <label>Business Name<input name="fname" type="text" value="" placeholder="Business Name" size="30" maxlength="30" required></label>
+            <p>Membership Level</p>
+            
+            <label><input class="myradio" name="temp" type="radio" value="hot"> Non-Profit</label>
+            <label><input class="myradio" name="temp" type="radio" value="warm"> Bronze</label>
+            <label><input class="myradio" name="temp" type="radio" value="cold"> Silver</label>
+            <label><input class="myradio" name="temp" type="radio" value="cold"> Gold</label>
+            <p></p>
+            <label>Business Description: <textarea name="description" cols="40" rows="5"></textarea></label>
+            <input class="jointhechamber" type="submit" name="go" value="Join the Chamber!">
+        </form>
+        </section>
+        <section>
+            <p>Membership Levels Benefits</p>
+            <p>NP Membership</p>
+            <div class="formstyling">
+                <ul>
+                    <li>For non profit organizations there is no fee.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

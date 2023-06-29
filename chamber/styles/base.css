@@ -149,3 +149,78 @@ footer {
     object-fit: cover;
 }
 
+
+/* JOIN HTML CSS */
+.join{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    }
+section{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    min-width: 400px;
+}
+
+label{
+    display: block;
+    font-size: .90rem;
+}
+
+input{
+    display: block;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+
+textarea{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.myradio{
+    display: inline;
+    margin: 0px 5px 0px 0px;
+}
+
+.jointhechamber{
+    font-size: .75rem;
+    background-color: #E19956;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+
+}
+
+.formstyling ul{
+    list-style-type: square;
+}
+
+section{
+    background-color: #eaccaf;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+input[type=radio]{
+    margin-bottom: 13px;
+}
+
+.thankyou{
+    text-align: center;
+}
+
+/* DISCOVER CSS */
+
+.discover-card{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.discover{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}

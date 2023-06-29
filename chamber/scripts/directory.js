@@ -4,12 +4,13 @@ async function getMembersData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.members);  // note that we reference the prophet array of the data object given the structure of the json file
+    displayProphets(data.members)
   }
 
   const displayProphets = (prophets) => {
     const cards = document.querySelector('directory-main-cards'); // select the output container element
   
-    prophets.forEach((prophet) => {
+    prophets.forEach((member) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       card.innerHTML = `<h2>${member.name}</h2>

@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/windchill.css">
     <script src="./scripts//windchill-news.js" defer></script>
     <script src="./scripts/timerange.js" defer></script>
     <title>San Francisco Chamber of Commerce</title>
@@ -47,62 +46,14 @@
 </body>
     <style>
 
-        main{
-            display: flex;
-            }
-        section{
-            width: 50%;
-            margin: 1rem;
-            padding: 1rem;
-            border: 1px solid black;
-            min-width: 400px;
-        }
 
-        label{
-            display: block;
-            font-size: .90rem;
-        }
-
-        input{
-            display: block;
-            margin-bottom: .5rem;
-            padding: .5rem;
-        }
-
-        textarea{
-            display: block;
-            margin-bottom: .5rem;
-        }
-
-        .myradio{
-            display: inline;
-            margin: 0px 5px 0px 0px;
-        }
-
-        .jointhechamber{
-            font-size: .75rem;
-            background-color: #E19956;
-            color: rgb(255, 255, 255);
-            padding: .5rem;
-
-        }
-
-        .formstyling ul{
-            list-style-type: square;
-        }
-
-        @media(max-width: 800px){
-            main {
-                display: block;
-            }
-            
-        }
     </style>
 
 <body>
-    <main>
+    <main class="join">
+        
         <section>
-            <form method="GET" action="page2.html">
+            <form method="GET" action="./thankyou.html">
             <label>First name<input name="fname" type="text" value="" placeholder="Your first name" size="30" maxlength="30" required></label>
             <label>Last name<input name="fname" type="text" value="" placeholder="Your last name" size="30" maxlength="30" required></label>
             <label>Title<input name="fname" type="text" value="" placeholder="Title" size="30" maxlength="30" required></label>
@@ -122,6 +73,7 @@
         </section>
         <section>
             <p>Membership Levels Benefits</p>
+            <hr>
             <p>NP Membership</p>
             <div class="formstyling">
                 <ul>

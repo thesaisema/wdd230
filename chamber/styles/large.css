@@ -42,4 +42,7 @@
         /* background-color: #00000000; */
         font-weight: bold;
     }
+    .join{
+        flex-direction: row;
+    }
 }

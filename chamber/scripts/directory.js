@@ -10,7 +10,7 @@ async function getMembersData() {
   const displayProphets = (prophets) => {
     const cards = document.querySelector('directory-main-cards'); // select the output container element
   
-    prophets.forEach((member) => {
+    prophets.forEach((prophet) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       card.innerHTML = `<h2>${member.name}</h2>

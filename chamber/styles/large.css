@@ -45,4 +45,8 @@
     .join{
         flex-direction: row;
     }
+    .list-directory .business-card {
+        display: flex;
+        justify-content: space-between;
+    }
 }
